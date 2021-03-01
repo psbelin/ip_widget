@@ -8,8 +8,8 @@ The way I've done it uses the xfce-genmon4 widget, which allows to show the outp
 ![Appearance](https://github.com/psbelin/ip_widget/blob/master/images/0.png)
 
 ## Steps
-1. Download the script
-`wget https://raw.githubusercontent.com/psbelin/ip_widget/master/ip_widget.sh`
+1. Download the script and make it executable
+`wget https://raw.githubusercontent.com/psbelin/ip_widget/master/ip_widget.sh && chmod 700 ip_widget.sh`
  and copy it's absolute path.
 
 2. Add a Generic Monitor to the taskbar
