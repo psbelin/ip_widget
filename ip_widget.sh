@@ -8,5 +8,5 @@ INTERFACE=$(cat /sys/class/net/$1/operstate 2>/dev/null)
 if [[ "$INTERFACE" == "up" || "$INTERFACE" == "unknown" ]];then
    ip -4 addr show $1 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
 else
-   echo "$1 down"
+   echo ""
 fi
