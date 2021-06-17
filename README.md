@@ -21,8 +21,9 @@ wget https://raw.githubusercontent.com/psbelin/ip_widget/master/ip_widget.sh && 
 ![Steps](https://github.com/psbelin/ip_widget/blob/master/images/2.png)
 
 4. Configure the Generic Monitor
-   - [ ] Right click -> Properties. 
-   - [ ] **Command:**   Use the **absolute** path to the downloaded script (the one you copied before), and the interface you want to monitor as an argument (i.e): `/home/your_user/ip_widget.sh tun0`
-   - [ ] **Label:**     Uncheck the Label (it uses space in your taskbar)
-   - [ ] **Period(s):** Set the frequency on which the script will run (i.e. 10 secs).
+   1. Right click -> Properties. 
+   2. **Command:**   Use the **absolute** path to the downloaded script (the one you copied before), and the interface you want to monitor as an argument (i.e): `/home/your_user/ip_widget.sh tun0`
+   If you want to use an identifier (for example an emoji) to know which VPN you are using, enter it as the second argument: `/home/your_user/ip_widget.sh tun0 🟢`
+   4. **Label:**     Uncheck the Label (it uses space in your taskbar)
+   5. **Period(s):** Set the frequency on which the script will run (i.e. 10 secs).
    ![Config](https://github.com/psbelin/ip_widget/blob/master/images/3.png)
